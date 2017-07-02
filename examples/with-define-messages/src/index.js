@@ -6,11 +6,13 @@ import intl from "react-intl-universal";
 import App from "./app/App.js";
 import {DEFAULT_LOCALE, SUPPORTED_LOCALES} from "./i18n";
 import enTranslationMessages from './locales/en.json';
+import gbTranslationMessages from './locales/gb.json';
 import ruTranslationMessages from './locales/ru.json';
 import amTranslationMessages from './locales/am.json';
 
 let translation = {
     'en': enTranslationMessages,
+    'gb': gbTranslationMessages,
     'ru': ruTranslationMessages,
     'am': amTranslationMessages
 };
